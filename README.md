@@ -10,6 +10,8 @@
 ├── daily-log.md          ← 日次作業ログ  
 ├── tools-urls.md         ← 重要URL・ツール集
 ├── decisions.md          ← 重要な決定事項
+├── logs-paths.md         ← ログパス・編集対象パス集 (NEW!)
+├── created-tools.md      ← 制作物リスト・最新デプロイ版 (NEW!)
 ├── sync-log.md           ← 同期履歴
 └── scripts/
 ```
