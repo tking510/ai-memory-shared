@@ -5,13 +5,14 @@
 
 ## 📁 シンプル構造（TK修正版）
 ```
-├── current-tasks.md      ← 全員の現在タスク
+├── current-tasks.md      ← 全員の現在タスク (連携状況込み)
+├── task-coordination.md ← タスク助け合い・依存関係 (NEW!)
 ├── project-status.md     ← プロジェクト状況
 ├── daily-log.md          ← 日次作業ログ  
 ├── tools-urls.md         ← 重要URL・ツール集
 ├── decisions.md          ← 重要な決定事項
-├── logs-paths.md         ← ログパス・編集対象パス集 (NEW!)
-├── created-tools.md      ← 制作物リスト・最新デプロイ版 (NEW!)
+├── logs-paths.md         ← ログパス・編集対象パス集
+├── created-tools.md      ← 制作物リスト・最新デプロイ版
 ├── sync-log.md           ← 同期履歴
 └── scripts/
 ```
