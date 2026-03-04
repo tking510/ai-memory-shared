@@ -1,0 +1,31 @@
+# AI Memory Shared - .gitignore
+
+# 機密情報
+*.key
+*.json
+*secret*
+*password*
+*token*
+
+# 一時ファイル
+*.tmp
+*.log
+.DS_Store
+*.swp
+
+# 個人設定
+.env
+.env.local
+
+# 大きなファイル
+*.xlsx
+*.csv
+*.zip
+
+# バックアップ
+*~
+*.bak
+
+# OS固有
+Thumbs.db
+desktop.ini

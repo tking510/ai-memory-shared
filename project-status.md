@@ -1,39 +1,50 @@
-# 🚀 全プロジェクト状況 (統一管理)
+# Project Status - 2026-03-04
 
-## 📅 最終更新: 2026-03-04 02:47 GMT+8
+## 🚀 本番稼働プロジェクト
 
-### 🔥 アクティブプロジェクト
+### slotenpromotion.com統一ドメイン (永続URL)
+- **プロモファクトリー**: https://promo.slotenpromotion.com
+- **ビジネスダッシュボード**: https://dashboard.slotenpromotion.com
+- **AIオフィス**: https://office.slotenpromotion.com  
+- **3D VIPルーム**: https://vip.slotenpromotion.com
+- **状況**: ✅ 全ツール24時間永続稼働
 
-#### スロ天 (sloten.io)
-- **3月実績**: 登録6,678人、GGR8,406万、RTP96.52%
-- **SEO**: 161ページ中26ページインデックス (やります君調査完了)
-- **次の課題**: 変換率向上、ユーザー継続率改善
+### SEOサイト
+- **casino-ranking-jp.com**: 161ページ、毎日SEO自動化
+- **cajikomi.com**: スロ天口コミサイト
+- **状況**: ✅ 日次更新稼働中
 
-#### プロモファクトリー  
-- **URL**: https://promo.slotenpromotion.com
-- **状態**: 永続デプロイ完了
-- **機能**: バナー/メール/LP/SNS/規約一括生成
+### VVVカジノ (vvvgame.io)
+- **フロント**: Next.js 14 + Prisma + Neon
+- **バック**: NestJS + Redis (67.217.228.112)
+- **状況**: ✅ 本番稼働中、14ゲーム
 
-#### VVV (vvvgame.io)
-- **技術**: Next.js + NestJS + Prisma + Neon + Redis  
-- **状態**: 14ゲーム、6チェーン対応で運用中
-- **課題**: 新機能開発速度向上
+## 🔧 運用ツール
 
-#### AIオフィス
-- **URL**: https://office.slotenpromotion.com
-- **メンバー**: 8エージェント
-- **新機能**: AI Memory Repository統一版（今回）
+### データ更新ツール (毎日自動)
+- **smsmailtool**: トラッキング・分析
+- **FTDチェッカー**: FTD確認・登録チェック  
+- **SMSダッシュボード**: 統計表示
+- **状況**: ✅ 9:00/21:00自動実行
 
-#### ビジネスダッシュボード
-- **URL**: https://dashboard.slotenpromotion.com
-- **状態**: 3月データ表示正常、累積マージ対応
+### 管理ツール
+- **クロークシステム**: xr7k.com/admin
+- **スロ天BO**: admin.sloten.io (手動ログイン)
+- **状況**: ✅ 稼働中
 
-### 🛠️ 技術インフラ
-- **永続URL**: slotenpromotion.com統一完了
-- **Claude Code**: Agency-Agents導入準備完了  
-- **Security**: セキュリティ分析完了
+## 📋 AIオフィス管理
 
-### ⚠️ 解決待ち課題
-1. 元気マン/番長君の409 Conflictエラー (インテリ君対応中)
-2. いけいけ丸/やる気マンのDiscord接続問題
-3. casino-ranking-jp.com インデックス改善 (1-2週間待ち)
+### メンバー構成
+- 💪 働きマン (main) - マネージャー
+- 📋 秘書鈴原 (suzuhara) - スケジュール/データ
+- 🔥 やります君 (yarimasu) - 実作業
+- 🚀 いけいけ丸/🔥 やる気マン - Discord経由
+- 📚 インテリ君/⚡ 元気マン/👊 番長君 - 別マシン
+
+### 運用ルール
+- **20分ルール**: タスク後20分報告なし → 確認
+- **30分ルール**: 全員30分タスクなし → 自動タスク提案
+- **指示はWeb Telegram経由** (profile=tk)
+
+---
+最終更新: 2026-03-04 17:30 by 働きマン
