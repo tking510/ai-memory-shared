@@ -21,9 +21,16 @@
 - **状況**: ✅ 全ツール24時間永続稼働
 
 ### SEOサイト
-- **casino-ranking-jp.com**: 161ページ、毎日SEO自動化
-- **cajikomi.com**: スロ天口コミサイト
-- **状況**: ✅ 日次更新稼働中
+- **casino-ranking-jp.com**: 134ページ (2026-03-04更新)
+  - **最新デプロイ**: https://e9f7a58b.casino-ranking-jp.pages.dev (21:01)
+  - **新規追加**: nyukin-furyo-bonus-2026.md, slot-osusume-2026.md, sloten-review/
+  - **改善**: 内部リンク戦略・SEOコンテンツ強化
+- **cajikomi.com**: 12ページ (2026-03-04大幅拡充)  
+  - **最新デプロイ**: https://d0ae7d7a.cajikomi.pages.dev (21:02)
+  - **新規追加**: スロ天関連口コミページ多数、レビューサイト機能拡充
+  - **状況**: ✅ デプロイ完了
+- **定期タスク**: 毎日10:00自動SEO実行中
+- **状況**: ✅ TK指示「SEO進めて」対応・大幅強化実施中
 
 ### VVVカジノ (vvvgame.io)
 - **フロント**: Next.js 14 + Prisma + Neon
