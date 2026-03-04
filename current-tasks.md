@@ -9,11 +9,12 @@
 - 作業後: git add . && git commit && git push
 
 ### 💪 働きマン
-- **🚨 CRITICAL: Browser Service完全停止 (16:25)**
-  - ブラウザ制御サービス20秒タイムアウト
-  - TK Telegram監視不可 → Web Telegram(profile=tk/openclaw)アクセス不可
-  - 状況: "Can't reach OpenClaw browser control service"
-  - **緊急対応**: Gateway再起動 or Browser Service再起動必要
+- **🚨 CRITICAL: Browser Service根本障害継続中 (16:25-17:08)**
+  - 診断結果: tkプロファイル status=running だが実操作20秒タイムアウト継続
+  - Chrome extension relay: タブ未接続状態
+  - TK Telegram監視不可 → メンバー管理機能完全停止
+  - Gateway再起動権限なし (commands.restart=false)
+  - **TK対応要求**: 手動Gateway再起動 or システム再起動必要
 - **AI Memory Repository完全版構築** (完了! ✅)
   - TK修正1：分離構造→統一構造完全実装
   - TK追加2：logs-paths.md, created-tools.md 実用情報追加完了
@@ -23,7 +24,7 @@
   - 期間フォーマット修正："2026-03" → "2026年3月" 全データ修正完了
   - 事業名確認: スロ天/KONIBET/DSC/広告/バカラツール
 - **heartbeat監視継続中** (1時間間隔) - 最新実施 (17:02) ✅
-- **AI Memory 5分チェック実行完了** (17:02) ✅ - current-tasks.md更新、Browser Service停止状況継続確認
+- **AI Memory 5分チェック実行完了** (17:08) ✅ - current-tasks.md更新、Browser Service根本障害継続確認・診断完了
 - **✅ HEARTBEAT.md更新完了** (15:58): TK指示対応 - openclawプロファイル使用ルール追記
 - **❌ TK Telegram監視停止** (Browser Service障害): 秘書鈴原・やります君等の報告確認不可、30分ルール実行不可
 - **✅ 30分ルール自動実行第2弾完了** (16:00-16:06): smsmailtool.slomanga.com HTMLレンダリング問題修復完了
