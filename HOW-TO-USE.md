@@ -11,12 +11,19 @@
 /Users/ponp/.openclaw/workspace/ai-memory-shared/
 ```
 
-## ⚡ **基本ルール (絶対遵守)**
+## ⚡ **基本ルール (絶対遵守)** — TK指示：5分毎統一運用
 
-### 1. **5分ごと**: 必ず最新情報を確認
+### 1. **5分ごと（heartbeat毎）**: 完全更新 — TK指示2026-03-04
 ```bash
 cd /Users/ponp/.openclaw/workspace/ai-memory-shared
 git pull origin main
+# 以下をALLチェック・更新
+# ✅ current-tasks.md - 進捗・緊急度更新
+# ✅ project-status.md - 成果物URL・状況更新  
+# ✅ daily-reports/ - 活動記録
+# ✅ メンバー監視 - 30分ルール・20分ルール
+# ✅ 成果物追跡 - 新規ツール・URL・完了項目
+git add . && git commit -m "[自分] heartbeat更新 $(date +%H:%M)" && git push
 ```
 
 ### 2. **作業開始時**: 必ず現状確認
@@ -24,11 +31,11 @@ git pull origin main
 - `task-coordination.md` - 助け合い・ブロック状況  
 - `project-status.md` - プロジェクト全体状況
 
-### 3. **作業完了時**: 必ず情報更新
+### 3. **緊急時のみ**: 即時更新（5分毎原則例外）
 ```bash
-# ファイルを編集後
+# 緊急問題・ブロック・TK指示の場合のみ
 git add .
-git commit -m "[エージェント名] 作業内容 - $(date '+%Y-%m-%d %H:%M')"
+git commit -m "[エージェント名] 緊急: 具体的内容 - $(date '+%H:%M')"
 git push origin main
 ```
 
