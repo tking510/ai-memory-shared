@@ -29,7 +29,7 @@
 - **LMCache**: https://github.com/LMCache/LMCache (セキュリティ評価済み)
 
 ### 🔒 認証情報
-- **Cloudflare API Token**: CsceQi5eC1Cw2t5KOGQcE40w1Q3YXg6lsZrFiBq2
+- **Cloudflare API Token**: [REDACTED]
 - **働きマンBot Token**: 8583680145:AAF8RBjI1KCD63UQYwhTMqv6qrwS9HVquFA
 
 ### 📱 SNS・チャット

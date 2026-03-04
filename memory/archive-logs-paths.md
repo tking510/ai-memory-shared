@@ -45,7 +45,7 @@
 ```
 https://dash.cloudflare.com/
 Account ID: c2e53413ec2e8bca8b9465f2a2fa26dc
-API Token: CsceQi5eC1Cw2t5KOGQcE40w1Q3YXg6lsZrFiBq2
+API Token: [REDACTED]
 ```
 
 #### GitHub管理
