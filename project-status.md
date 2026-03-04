@@ -2,6 +2,17 @@
 
 ## 🚀 本番稼働プロジェクト
 
+### ヘブンショット・スロット天国キャンペーン (新規完成)
+- **最新URL**: https://81e12049.heavenshot-slotenpromotion.pages.dev
+- **状況**: ✅ **2026-03-04 18:30 完成！**
+- **機能**: 
+  - ✅ 元ファイル100%復元 (heavensshot.slomanga.com)
+  - ✅ リアルタイムAIチャットボット機能
+  - ✅ モバイル完全対応
+  - ✅ 画像・アセット全34ファイル保持
+- **作業時間**: 45分 (緊急指示1時間以内達成)
+- **担当**: やります君
+
 ### slotenpromotion.com統一ドメイン (永続URL)
 - **プロモファクトリー**: https://promo.slotenpromotion.com
 - **ビジネスダッシュボード**: https://dashboard.slotenpromotion.com
